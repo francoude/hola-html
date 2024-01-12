@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9f3ba9085a.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+         display: flex;
+         height: 70px;
+        justify-content: space-between;
+        background-color: rgb(49, 49, 61);
+        align-items: center;
+        padding: 10px;
+    }
+   .logo{
+    display: flex;
+    align-items: center;
+
+   }
+   .logo img{
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50px;
+   }
+   
+.nav-link{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+ 
+
+}
+.nav-link:hover{
+    background-color: rgb(66, 66, 90); 
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+.logo-nombre{
+    margin: 10px;
+}
+.cont-productos {
+    border: 1px solid black;
+    width: 300px;
+    justify-content: space-between;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px 0px rgb(95, 95, 117);
+   
+
+}
+.cont-productos:hover{
+    box-shadow: 5px 5px 5px 0px rgb(95, 95, 111);
+    scale: 1.05;
+    transition: 2s;
+}
+
+.cont-productos img{
+    width: 300px;
+}
+.cont-nombre{
+    text-align: center;
+}
+.cont-descripcion{
+    text-align: center;
+}
+span{
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.content-img img{
+    width: 100%;
+}
+
+
+
+
+.contenedor-nuev{
+    width: 250px;
+    border: 1px solid black;
+    margin-top: 100px;
+}
+.contenedor-nuev img{
+    width:250px ;
+}
+
+
+
+</style>
+<body>
+    <header>
+        <a href="#" class="logo">
+        
+            <img class="logo-img" src="https://seeklogo.com/images/C/converse-logo-6A2112857B-seeklogo.com.png">
+            <h2 class="logo-nombre">Mi tienda</h2>
+        </a>
+            <nav>
+            
+                <a class="nav-link" href="">Contacto</a>
+                <a class="nav-link" href="">Direccion</a>
+                <a class="nav-link" href="">Sobre nosotros</a>
+                <a class="nav-link" href="">Producto</a>
+              
+            </nav>
+    </header>
+<div class="content-img">
+    <img src="https://www.opensports.com.ar/media/landings/brands/Banner_OPEN_SPORT_BSK_1366x600_px_OPC-01-2.jpg">
+</div>
+
+    <section>
+    <div class="contenedor">
+        <div class="cont-productos">
+            <div class="cont-img">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_996607-MLA47160404301_082021-O.webp">
+                <h1 class="cont-nombre" >Tu mejor opcion</h1>
+            </div>
+            <div class="cont-descripcion">
+               <p>Lorem ipsum dolor sit am</p>
+            </div>
+            <span class="precio">$ 2.9000</span>
+        </div>
+
+        <div class="cont-productos">
+            <div class="cont-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRjnp2oYB8GK8gNGADCa5TWkSbPSwB5SnBfg&usqp=CAU" height="295px">
+                <h1 class="cont-nombre" >Tu mejor opcion</h1>
+            </div>
+            <div class="cont-descripcion">
+               <p>Lorem ipsum dolor sit am</p>
+            </div>
+            <span class="precio">$ 2.9000</span>
+        </div>
+
+        <div class="cont-productos">
+            <div class="cont-img">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_996607-MLA47160404301_082021-O.webp">
+                <h1 class="cont-nombre" >Tu mejor opcion</h1>
+            </div>
+            <div class="cont-descripcion">
+               <p>Lorem ipsum dolor sit am</p>
+            </div>
+            <span class="precio">$ 2.9000</span>
+        </div>
+
+        <div class="cont-productos">
+            <div class="cont-img">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_996607-MLA47160404301_082021-O.webp">
+                <h1 class="cont-nombre" >Tu mejor opcion</h1>
+            </div>
+            <div class="cont-descripcion">
+               <p>Lorem ipsum dolor sit am</p>
+            </div>
+            <span class="precio">$ 2.9000</span>
+        </div>
+    </div>
+    </section>
+<rh color="black"/>
+
+    <section>
+        <div class="contenedor-nuev">
+            <div class="cont-nuevo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlGWwlQhPzNm6d1Y_zYqGd32LjqX3rTO0Kmg&usqp=CAU" alt="">
+                <h2>nuevo producto</h2>
+                <span>$50.000</span>
+                <button class="cont-btn">chequeala aqui!</button>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
